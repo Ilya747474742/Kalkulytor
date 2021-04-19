@@ -53,5 +53,18 @@ public class a : MonoBehaviour
         }
         
     }
-  
+  public void Clean()
+    {
+        KM.Select();
+        Km100.Select();
+        prise.Select();
+        KolVo.Select();
+        KM.text = "";
+        Km100.text = "";
+        prise.text = "";
+        KolVo.text = "";
+        Finish.text = "Литров - ";
+        Finish1.text = "Рублей - ";
+        Finish2.text = "Каждый скинется по - ";
+    }
 }
