@@ -42,9 +42,6 @@ public class a : MonoBehaviour
             Finish1.text += G;
             Finish2.text += K;
 
-
-            print(d);
-            print(G);
         }
         catch (Exception)
         {
