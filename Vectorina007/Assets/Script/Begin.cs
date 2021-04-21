@@ -1,18 +1,29 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Begin : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public InputField Name;
+    public int buildindex;
+    public void Levelss()
     {
-        
-    }
+        //SceneManager.LoadScene(buildindex);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+
+        try
+        {
+
+            string a = (Name.text);
+            print(a);
+
+
+        }
+        catch (Exception)
+        {
+            Name.text = "Wrong Value";
+
+        }
     }
 }
