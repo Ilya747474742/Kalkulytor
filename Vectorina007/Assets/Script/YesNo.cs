@@ -34,6 +34,7 @@ public class YesNo : MonoBehaviour
             Buttonsss.interactable = false;
             Buttonsss1.interactable = false;
         }
+        print("PPP");
     }
     public void No()
     {

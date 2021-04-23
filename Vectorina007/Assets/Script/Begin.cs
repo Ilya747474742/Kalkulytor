@@ -9,7 +9,7 @@ public class Begin : MonoBehaviour
     public int buildindex;
     public void Levelss()
     {
-        //SceneManager.LoadScene(buildindex);
+        SceneManager.LoadScene(buildindex);
 
 
         try
