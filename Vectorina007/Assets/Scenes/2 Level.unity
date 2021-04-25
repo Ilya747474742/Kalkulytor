@@ -841,6 +841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Scores: 0
   Score0: {fileID: 1638447023}
+  Strelka: {fileID: 1339553653}
 --- !u!114 &351923709
 MonoBehaviour:
   m_ObjectHideFlags: 0

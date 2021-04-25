@@ -8,6 +8,7 @@ public class Score : MonoBehaviour
 {
     public int Scores = 0;
     public Text Score0;
+    public Button Strelka;
 
     public void Click()
     {
@@ -16,7 +17,17 @@ public class Score : MonoBehaviour
 
 
     }
-
+     void Update()
+    {
+        if (Scores >= 4)
+        {
+            Strelka.interactable = true;
+        }
+        else
+        {
+            Strelka.interactable = false;
+        }
+    }
 
 
 }
